@@ -1,0 +1,22 @@
+.post-list{
+    margin-bottom: 30px;
+    width: 64%;
+    float: left;
+}
+.post{
+    margin-bottom: 30px;
+}
+.post-content p{
+    padding-bottom: 15px;
+}
+.post-img{
+margin-bottom: 30px;
+}
+.category a{
+    color: #111;
+    text-transform: uppercase;
+}
+.post-title{
+ margin-bottom: 15px;   
+ font-size: 1.5rem;
+}

@@ -1,0 +1,50 @@
+header{
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+    margin-bottom: 30px;
+    position: relative;
+    height: 70px;
+}
+/* logo  */
+.logo{
+    display: block;
+    float: left;
+}
+.logo span{
+    color: white;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 5px 0;
+    text-align-last: center;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+.logo span:nth-child(odd) {
+    background-color: tomato;
+}
+.logo span:nth-child(even) {
+    background-color: steelblue;
+}
+/* menu  */
+#menu{
+    float: right;
+
+}
+#menu li{
+    display: inline-block;
+    margin-right: 30px;
+}
+#menu a{
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    line-height: 40px;
+}
+#menu li:last-child{
+    margin-right: 0;
+}
